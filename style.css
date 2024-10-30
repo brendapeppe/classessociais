@@ -1,0 +1,167 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+main{
+    padding: 15px;
+    margin: 5px;
+}
+
+h1{
+    font-size: 55px;
+    text-align: center;
+    color: #000000;
+    font-family: "Inknut Antiqua", serif;
+    margin: 0;
+}
+
+h1::before{
+    content: "Tema: ";
+    color: #ce0000d2;
+
+}
+
+h2{
+    font-size: 30px;
+    font-family: "Inknut Antiqua", serif;
+    margin-bottom: 0;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    background-color: #8b8b8b;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+nav ul li a:active{
+    background-color: #ce0000d2;
+}
+
+nav ul li a:visited{
+    background-color: #fa7070;
+}
+
+p::first-letter{
+    color: rgb(255, 0, 0);
+    font-weight: 900;
+    font-size: 1.2em;
+}
+
+h1::selection{
+    background-color: #520000;
+    color: #ffa1a1;
+}
+
+h2::selection{
+background-color: #8b8b8b;
+color: #bb0303;
+
+}
+p::selection{
+    background-color: #bb0303;
+    color: #d4d4d4;
+}
+
+.item1{
+    background-color: #fdb0b0;
+    color: #220101;
+    padding: 20px;
+    margin: 5px;
+    width: 30%;
+    border-radius: 15px;
+    
+}
+.item{
+    border-radius: 20px;
+    background-color: #fdb0b0;
+    color: #220101;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.alta{
+    display: flex;
+    border: 2px solid #741313 ;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 20px;
+
+}
+
+.media{
+    display: flex;
+    border: 2px solid #741313 ;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.baixa{
+    display: flex;
+    border: 2px solid #741313 ;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+    border-radius: 20px;
+}
+ p{
+    width: 70%;
+    padding-left: 15%;
+   margin-top: 35px;
+   font-size: 19px;
+   
+ }
+ img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+ }
+
+ .rodape{
+    font-size: 16px;
+    text-align: center;
+    background-color: #a01010;
+    padding: 15px;
+    margin-bottom: 0;
+    color: #fcdfdf;
+    width: 97.8%;
+ }
+
+ @media (max-width:480px){
+    p{
+        font-size: 15px;
+        margin-top: 0;
+        margin-bottom: 80px;
+        width: 90%;
+        padding: 10px;
+    }
+    h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+    }
+     
+ }
